@@ -92,7 +92,6 @@
 }
 
 .uSection {
-	padding: 15rem 0rem;
 	@include medium() {
 		padding: 12rem 0rem;
 	}
@@ -107,6 +106,7 @@
 .uSectionHead {
 	text-align: center;
 	margin-bottom: 5rem;
+	margin-top: 15rem;
 	@include small() {
 		margin-bottom: 3rem;
 	}
@@ -521,7 +521,6 @@ a {
 #intro {
 	padding-top: 13rem;
 	padding-bottom: 3rem;
-	min-height: 100vh;
 	display: flex;
 	@include medium() {
 		padding-top: 8rem;
@@ -538,7 +537,6 @@ a {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin-bottom: 5rem;
 		@include medium() {
 			flex-direction: column-reverse;
 			row-gap: 2rem;
@@ -805,7 +803,6 @@ a {
 
 // ——— Ecosystems [Section 2] ———
 #ecosystems {
-	min-height: 100vh;
 	.wrapper {
 	}
 
@@ -957,7 +954,7 @@ a {
 		}
 
 		.detail {
-			width: 45%;
+			width: 100%;
 			@include medium() {
 				width: 100%;
 			}
@@ -1075,8 +1072,6 @@ a {
 
 // ——— MVP [Section 4] ———
 #mvp {
-	min-height: 100vh;
-
 	.wrapper {
 	}
 
@@ -1393,7 +1388,6 @@ a {
 
 // ——— Roadmap [Section 6] ———
 #roadmap {
-	min-height: 100vh;
 	.wrapper {
 	}
 
@@ -1419,7 +1413,7 @@ a {
 				position: absolute;
 				top: 0px;
 				left: 0px;
-				width: 35%;
+				width: 10%;
 				height: 100%;
 				background-color: var(--primary);
 			}
@@ -2031,6 +2025,7 @@ a {
 // ——— Contact US [Section 12] ———
 #contact {
 	min-height: 100vh;
+	margin-top: 15rem;
 
 	.container {
 		max-width: 1000px;
