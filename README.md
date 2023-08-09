@@ -1,7 +1,3 @@
-# Crypto Landing Page
+# The Peoplenet landing page
 
 Written in HTML & CSS, Responsive.
-
-<a href="https://rezamehdipour.ir/crypto">[ Live Preview ]</a>
-
-![preview](preview.jpg)
